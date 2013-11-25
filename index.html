@@ -149,7 +149,7 @@ if (window.applicationCache){
 		hasLocalStorage = true;
 	} catch(e) {}
 
-	var theme = 'web';
+	var theme = 'ios';
 	if (ua && /iPhone|iPod|iPad/.test(ua) && parseInt((ua.match(/ OS (\d+)_/i) || [,0])[1], 10) >= 5){
 		theme = 'ios';
 	}
